@@ -1,0 +1,102 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Pozycjonowanie */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.yellow{
+  background-color: hsla(40, 20%, 50%, .4); 
+}
+/*.green{
+  background-color: rgba(162, 255, 128, 0.5);
+}
+.purple{
+  background-color: rgba(215, 59, 255, 0.5);
+}
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+.head, .links {
+  text-align: center;
+
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.profile-image {
+  margin-top: -60px;
+}
+/* Linki kontaktowe */
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  
+}
+
+h1, h2, area{
+  font-size: 30px;
+  color: rgba(0,0,0,.7);
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+h2{
+  font-size: 16px;
+}
+.about{
+  font-family: "Cucida Grande", "Licida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,.7);
+}
+
+a{
+  color: rgba(0,0,0,.7);
+}
+a.hover{
+  color: rgba(0,0,0,.0);
+}
