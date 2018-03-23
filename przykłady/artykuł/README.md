@@ -1,0 +1,1 @@
+pierwsza praca na obrazku
