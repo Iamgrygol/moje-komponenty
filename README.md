@@ -1,1 +1,0 @@
-# moje-komponenty
