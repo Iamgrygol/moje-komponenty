@@ -1,1 +1,1 @@
-pierwsza prosta stopka
+![Podgląd](simple-footer.png)
